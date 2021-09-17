@@ -11,5 +11,8 @@ The data folder contains three files
   - `title`: Title of the article
   - `body`: Body of the article
   - `bias`: Class label it can be "Left", "Center" and "Right"
-- bias_articles_dev.json
-- bias_articles_test.json
+- bias_articles_dev.json: Same as bias_articles_train, but used for validation of the models.
+- bias_articles_test.json: Same as bias_articles_train, but does not contain bias labels (to be predicted.)
+
+# Code
+bias_classifier.py: Contains classifier class.
