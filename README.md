@@ -14,5 +14,9 @@ The data folder contains three files
 - bias_articles_dev.json: Same as bias_articles_train, but used for validation of the models.
 - bias_articles_test.json: Same as bias_articles_train, but does not contain bias labels (to be predicted.)
 
-# Code
-bias_classifier.py: Contains classifier class.
+# Task
+- In bias_classifier.py Implement fit, test and predict functions.
+- You may use any classifier that you like, any features extracted from the title and the body.
+- Use bias_articles_train.json to train the model, bias_articles_dev.json to fine-tune the parameters.
+- Predict the labels for articles in bias_articles_test.json using the model trained above. 
+- Document the code and follow [Google python coding conventions](https://google.github.io/styleguide/pyguide.html)
