@@ -20,3 +20,5 @@ The data folder contains three files
 - Use bias_articles_train.json to train the model, bias_articles_dev.json to fine-tune the parameters.
 - Predict the labels for articles in bias_articles_test.json using the model trained above. 
 - Document the code and follow [Google python coding conventions](https://google.github.io/styleguide/pyguide.html)
+- Fork this repository and implement the solution and make a pull request.
+- If you have any question keep in touch with Vinay Setty (first name at factiverse.no).
